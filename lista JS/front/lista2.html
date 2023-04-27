@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista JS</title>
+</head>
+<body>
+    <script>
+        let listapares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        var pares = true
+
+        for (let indice = 0; indice < listapares.length; indice++) {
+            if (listapares[indice] % 2 !== 0){
+                pares = false
+            }
+        }
+
+        console.log(pares)
+    </script>
+</body>
+</html>
